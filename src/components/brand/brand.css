@@ -1,0 +1,18 @@
+.__brand {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.__brand h2 {
+  flex: 1;
+  max-width: 150px;
+  min-width: 25px;
+  margin: 0.8rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
