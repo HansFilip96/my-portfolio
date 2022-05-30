@@ -6,13 +6,13 @@ import Stack from "@mui/material/Stack";
 
 const Portfolio = () => (
   <div className="__Portfolio section__margin">
-    <div className="__Portfolio-feature">
+    <div className="__Portfolio-feature" id="About">
       <Feature
         title="Who Am I"
         text="I am Filip and I am 25 years old. I live in Stockholm, Sweden. By looking at this portfolio about me and my projects that I have built, you will notice that I have learned quite a lot during my relatively short time as a web developer, and I strive to develop even more"
       />
     </div>
-    <div className="__Portfolio-heading">
+    <div className="__Portfolio-heading" id="Portfolio">
       <h1 className="gradient__text">This Is What I Have Developed</h1>
       <p>Explore The Portfolio</p>
     </div>

@@ -10,7 +10,7 @@ const Footer = () => (
       </h1>
     </div>
 
-    <div className="__footer-btn">
+    <div className="__footer-btn" id="Contact">
       <p>Get in Contact</p>
     </div>
 
