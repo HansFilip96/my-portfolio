@@ -2,7 +2,6 @@ import React from "react";
 import Feature from "../../components/feature/Feature";
 import "./Portfolio.css";
 import Button from "@mui/material/Button";
-import Stack from "@mui/material/Stack";
 
 const Portfolio = () => (
   <div className="__Portfolio section__margin">
@@ -27,8 +26,11 @@ const Portfolio = () => (
       >
         Link
       </Button>
-      <Feature title="Spotify-Clone" text="in development." />
-      <Button href="https://open.spotify.com/" variant="text">
+      <Feature
+        title="Spotify-Clone"
+        text="Fun project, still a little buggy."
+      />
+      <Button href="https://samuelsson-spotify.herokuapp.com/" variant="text">
         Link
       </Button>
       <Feature

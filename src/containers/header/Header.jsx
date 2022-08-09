@@ -9,8 +9,15 @@ const Header = () => (
       <h1 className="gradient__text">I Have Design Experience</h1>
 
       <div className="__header-content__input">
-        <input type="email" placeholder="Email Address" />
-        <button type="button">Get in Contact</button>
+        <form>
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input type="email" id="email" placeholder="Email Adress" required />
+          <input type="text" id="phone" placeholder="Phone Nr" required />
+          <textarea id="message" placeholder="Message"></textarea>
+          <button id="__button" type="submit">
+            Get in Contact
+          </button>
+        </form>
       </div>
 
       <div className="__header-content__people">
